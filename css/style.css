@@ -12,7 +12,6 @@
 #main-nav {
     display: fixed;
     width: 2vw;
-    left: 20vw;
 }
 #main-nav summary{
     list-style: none;
@@ -20,7 +19,6 @@
 }
 summary h1 {
     color: black;
-    right: 20vw;
 }
 #nav-bigscreen ul {
     list-style: none;

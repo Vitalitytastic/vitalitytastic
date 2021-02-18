@@ -12,8 +12,12 @@
 #main-nav {
     display: fixed;
     width: 2vw;
+    float: right;
+    right: 50vw;
+    font-size: 1.2rem;
 }
 #main-nav summary{
+    display: fixed;
     list-style: none;
     color: white;
 }

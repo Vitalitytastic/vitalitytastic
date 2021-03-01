@@ -23,18 +23,25 @@
 }
 summary h1 {
     color: black;
+    position: relative;
+    right: 2vw;
 }
 #nav-bigscreen ul {
     list-style: none;
     float: left;
+    position: relative;
+    right: 13vw;
+    bottom: 5vh;
 }
 
 #nav-bigscreen li {
-    margin: 2vh;
+    
 }
 #nav-bigscreen a {
     text-decoration: none;
     font-size: 1.3rem;
+    float: left;
+   margin: 0.5vw;
 }
 
 #nav-bigscreen a:link, a:visited, a:active {

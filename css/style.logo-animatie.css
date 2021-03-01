@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/* ACHTERGROND ANIMATIE */
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkorange;
+    overflow: hidden;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 12vw;
+    z-index: 1000;
+    font-weight: 700;
+}
+
+.block {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: darkorange;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+
+/* TEXT ANIMATIE */
+section {
+    margin-top: 975px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: dodgerblue;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    -webkit-box-reflect: below -0.46em linear-gradient(transparent,#0004);
+}
+
+section .text span {
+    position: relative;
+    display: inline-block;
+}

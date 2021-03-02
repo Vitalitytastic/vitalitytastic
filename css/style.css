@@ -59,9 +59,10 @@ summary h1 {
 .blok1 {
     position: relative;
     background-color: white;
-    height: 20vh;
+    height: 40vh;
     width: 60vw;
     top: 60vh;
     left: 20vw;
+    margin: 5vw;
 }
 }

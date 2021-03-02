@@ -56,4 +56,12 @@ summary h1 {
 #nav-bigscreen a:hover{
     color: purple;
 }
+.blok1 {
+    position: relative;
+    background-color: white;
+    height: 20vh;
+    width: 60vw;
+    top: 60vh;
+    left: 20vw;
+}
 }

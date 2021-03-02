@@ -21,10 +21,10 @@ background-size: 2000px 2000px ;
 
 
 .logo {
-    position: fixed;
+    position: relative;
     top: 0vh;
     width: 20vw;
-    left: 80vw;
+    left: 79vw;
     
 }
 

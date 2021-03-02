@@ -154,6 +154,7 @@ html, body {
     animation: not-checked-anim .2s both;
     transition: .2s;
 }
+
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
 }
@@ -164,7 +165,13 @@ html, body {
     display: none;
 }
 
-
-
+.blok1 {
+    position: relative;
+    background-color: white;
+    height: 20vh;
+    width: 60vw;
+    top: 60vh;
+    left: 20vw;
+}
 
 }

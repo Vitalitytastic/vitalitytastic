@@ -1,3 +1,11 @@
+html {
+background-image: linear-gradient(#ff8a00, #e52e71);
+background-image: linear-gradient(to right, violet, darkred, purple);
+background-image: linear-gradient(40deg, rgb(255 0 0) 45%, orange);
+background-repeat: no-repeat;
+background-size: 2000px 2000px ;
+}
+
 @media screen and (min-width: 300px) and (max-width: 768px) {
 
 }
@@ -6,8 +14,8 @@
 
 .logo {
     display: fixed;
-    width: 20vw;
-    left: 10vw;
+    width: 15vw;
+    left: 7.5vw;
 }
 #main-nav {
     display: fixed;
@@ -34,9 +42,6 @@ summary h1 {
     bottom: 5vh;
 }
 
-#nav-bigscreen li {
-    
-}
 #nav-bigscreen a {
     text-decoration: none;
     font-size: 1.3rem;

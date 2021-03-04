@@ -188,24 +188,5 @@ h4 {
     margin: 5vw;
     z-index: 3;
 }
-.blok2 {
-    position: relative;
-    background-color: white;
-    height: 40vh;
-    width: 60vw;
-    top: 40vh;
-    left: 15vw;
-    margin: 5vw;
-    z-index: 3;
-}
-.blok3 {
-    position: relative;
-    background-color: white;
-    height: 40vh;
-    width: 60vw;
-    top: 60vh;
-    left: 15vw;
-    margin: 5vw;
-    z-index: 3;
-}
+
 

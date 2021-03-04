@@ -165,7 +165,18 @@ h4 {
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
 }
-
+.blikje {
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+    width: 40vw;
+}
+#intro-tekst {
+    width: 55vw;
+    position: relative;
+    left: 35vw;
+    bottom: 50vh;
+}
 .blok1 {
     position: relative;
     background-color: white;

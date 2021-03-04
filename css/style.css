@@ -12,6 +12,9 @@ font-family: 'Roboto', sans-serif;
 
 @media screen and (min-width: 1200px) {
 
+    html {
+        font: 14pt "Roboto", sans-serif;
+    }
     .text_info {
         margin-top:80px;
         margin-left:50px;
@@ -170,6 +173,7 @@ h4 {
     top: 10vh;
     left: 5vw;
     width: 40vw;
+    z-index: 1;
 }
 #intro-tekst {
     width: 55vw;
@@ -178,15 +182,85 @@ h4 {
     bottom: 50vh;
     color: white;
     font: 14pt "Roboto", sans-serif;
+    z-index: 1;
 }
 .blok1 {
     position: relative;
     background-color: white;
     height: 40vh;
-    width: 60vw;
-    top: 20vh;
-    left: 15vw;
+    width: 20vw;
+    left: 10vw;
     margin: 5vw;
-    z-index: 3;
+    z-index: 1;
+}
+.blok1 h1 {
+    position: relative;
+    top: 5vh;
+    left: 1.5vw;
+    font-size: 1.5rem;
+}
+.blok2 {
+    position: relative;
+    background-color: white;
+    height: 40vh;
+    width: 20vw;
+    left: 35vw;
+    bottom: 50.5vh;
+    margin: 5vw;
+    z-index: 1;
+}
+.blok2 h1 {
+    position: relative;
+    top: 5vh;
+    left: 1.5vw;
+    font-size: 1.5rem;
+}
+.blok3 {
+    position: relative;
+    background-color: white;
+    height: 40vh;
+    width: 20vw;
+    left: 60vw;
+    bottom: 101vh;
+    margin: 5vw;
+    z-index: 1;
+}
+.blok3 h1 {
+    position: relative;
+    top: 5vh;
+    left: 2.5vw;
+    font-size: 1.5rem;
+}
+.blok4 {
+    position: relative;
+    background-color: white;
+    height: 50vh;
+    width: 70vw;
+    left: 10vw;
+    bottom: 100vh;
+    margin: 5vw;
+    z-index: 1;
+}
+.blok4 h1 {
+    position: relative;
+    top: 5vh;
+    left: 2vw;
+    font-size: 1.5rem;
+}
+.blok5 {
+    position: relative;
+    background-color: white;
+    height: 50vh;
+    width: 70vw;
+    left: 10vw;
+    bottom: 100vh;
+    margin: 5vw;
+    z-index: 1;
+}
+.blok5 h1 {
+    position: relative;
+    top: 5vh;
+    left: 2vw;
+    font-size: 1.5rem;
 }
 }

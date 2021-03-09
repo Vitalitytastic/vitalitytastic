@@ -20,7 +20,6 @@ font-family: 'Roboto', sans-serif;
     z-index: 2;
 }
 /* einde logo */
-
 /* navigatie */
 @keyframes checked-anim {
     50% {
@@ -174,6 +173,7 @@ h4 {
     font-size: 4.8rem;
 }
 /* einde introductie */
+/* item blokken */
 .blok1 h1, .blok2 h1, .blok3 h1, .blok6 h1, .blok7 h1, .blok8 h1 {display: none;}
 .blok4 {
     position: relative;
@@ -226,6 +226,7 @@ h4 {
     white-space: nowrap;
     padding: 5vw;
 }
+/* einde item blokken */
 }
 /* einde mobile */
 /* desktop */
@@ -536,5 +537,7 @@ h4 {
     font-size: 1.5rem;
 }
 /* einde informatie blokken */
+/* product informatie pagina */
+
 }
 /* einde desktop */

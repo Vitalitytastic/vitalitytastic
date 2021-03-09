@@ -174,11 +174,57 @@ h4 {
     font-size: 4.8rem;
 }
 /* einde introductie */
-.blok1 {
+.blok1 h1, .blok2 h1, .blok3 h1, .blok6 h1, .blok7 h1, .blok8 h1 {display: none;}
+.blok4 {
     position: relative;
+    width: 325vw;
+    height: 100vh;
     background-color: white;
-    width: 20vw;
-    height: 20vh;
+    top: 65vh;
+    left: 40vw;
+    padding: 5vw;
+    border: 5px black solid;
+}
+.blok4 h1 {font-size: 5rem;}
+.blok5 {
+    position: relative;
+    width: 325vw;
+    height: 100vh;
+    background-color: white;
+    top: 85vh;
+    left: 40vw;
+    padding: 5vw;
+    border: 5px black solid;
+}
+.blok5 h1 {font-size: 5rem;}
+.rows {
+  height: 33.333333333333333333%;
+}
+.cols {
+  width: 200vw;
+  height: 200vw;
+  /*float: right;*/
+  /*height: 100%;*/
+  background-color: white;
+  border: solid;
+  font-size: 2.2vw;
+  text-align: center;
+  vertical-align: middle;
+  border-color: black;
+  display: inline-block;
+}
+.cols h1 {
+    font-size: 5rem;
+}
+.mywrapper {
+    bottom: 290vh;
+    position: relative;
+    left: 38vw;
+    width: 360vw;
+    max-width: 500vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 5vw;
 }
 }
 /* einde mobile */

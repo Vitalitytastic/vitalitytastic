@@ -220,7 +220,7 @@ h4 {
 .cols h1 {
     font-size: 5rem;
 }
-/.cols:nth-child(6){
+.cols:nth-child(6){
     background-image: url(/images/contact.png);
     background-position: center;
 }
@@ -239,7 +239,7 @@ h4 {
 }
 /* einde mobile */
 /* desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 /* main */
 html {height: 350vh;}
 body {height: 350vh;}
@@ -554,6 +554,7 @@ h4 {
     left: 6vw;
     font-size: 1.5rem;
 }
+.rows {display: none;}
 /* einde informatie blokken */
 /* product informatie pagina */
 

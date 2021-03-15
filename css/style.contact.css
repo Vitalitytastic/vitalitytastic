@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif; 
+    font-family: Times sans-serif;
 }
 
 /* START MENU */
@@ -30,7 +30,7 @@
 .menu-a {
     margin: 75px 0 -55px 0;
     color: red;
-    font: 14pt 'Roboto', sans-serif;
+    font: 14pt "Times", sans-serif;
     font-weight: 700;
     line-height: 1.8;
     text-decoration: none;
@@ -72,8 +72,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: orange;
-    overflow: hidden;
+    background-image: linear-gradient(40deg, rgb(255 0 0) 45%, orange);
+    background-repeat: no-repeat;
 }
 
 #trigger,
@@ -321,6 +321,10 @@ input[type="submit"]:hover {
 
 /* RESPONSIVE */
 @media (max-width: 1200px) {
+    body
+    {
+        overflow-x: hidden
+    }
     .container-contact
     {
         width: 90%;
@@ -353,6 +357,10 @@ input[type="submit"]:hover {
     }
 }
 @media (max-width: 991px) {
+    body
+    {
+        overflow-x: hidden
+    }
     .achtergrond
     {
         display: flex;
@@ -394,6 +402,15 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 600px) {
+    body
+    {
+        overflow-x: hidden;
+        background-image: -moz-repeating-linear-gradient(190deg, rgb(255 0 0) 25%, orange);
+    }
+    .achtergrond {
+        overflow-x: hidden;
+        background-image: -moz-repeating-linear-gradient(190deg, rgb(255 0 0) 25%, orange);
+    }
     .container-contact
     {
         top: 150px;

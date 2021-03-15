@@ -557,6 +557,29 @@ h4 {
 .rows {display: none;}
 /* einde informatie blokken */
 /* product informatie pagina */
-
+.item-border{
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    background-color: orange;
+    border-radius: 20%;
+    height: 90vh;
+    width: 40vw;
+}
+table {
+    position: relative;
+    bottom: 75vh;
+    left: 13vw;
+}
+td, th {
+    width: 10vw;
+    text-align: center;
+}
+.vita {
+    margin-top: 5vh;
+}
+.vita caption {
+    font-weight: bold;
+}
 }
 /* einde desktop */

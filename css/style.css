@@ -273,6 +273,143 @@ h1 {
     box-shadow: 0 20px 25px rgba(0,0,0,0.15);
 }
 /* blokken end */
+/* Repsonive */
+
+/* ------! Ipad Pro !------ */
+@media (max-width: 1224px) and (min-width: 1024px) {
+    body, html {
+        overflow-x: hidden;
+    }
+    /* intro */
+    .logo {
+        width: 32vw;
+        height: auto;
+        left: 70vw;
+        top: 0;
+    }
+    .blikje {
+        width: 70vw;
+        left: -5vw;
+        top: 10vh;
+        height: auto;
+    }
+    .intro-tekst {
+        position: relative;
+        width: 50%;
+    }
+    .h1-titel {
+        width: 70%;
+        font-size: 46px;
+        left: 10vw;
+        top: 2vh;
+        line-height: 50px;
+    }
+    .p-ondertitel {
+        width: 80%;
+        font-size: 30px;
+        left: 10vw;
+        margin-top: 8.5vh;
+    }
+    /* end intro */
+
+    /* blokken */
+    .blokken {
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 68vh;
+    }
+    .blokken-klein {
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .blok1-groot, .blok2-groot, .blok3-klein, .blok4-klein, .blok5-klein, .blok6-klein, .blok7-klein, .blok8-klein {
+        z-index: 2;
+        height: 70vh;
+        width: 72vw;
+    }
+    .blok2-groot, .blok3-klein, .blok4-klein, .blok5-klein, .blok6-klein, .blok7-klein, .blok8-klein {
+        z-index: 2;
+        margin-top: 50vh;
+        margin-left: 14vw;
+    }
+    .h1-blokken {
+        text-align: center;
+        margin-right: 5vw;
+        font-size: 36px;
+    }
+}
+
+/* ------! Ipad !------ */
+@media (max-width: 991px) {
+    body, html {
+        overflow-x: hidden;
+    }
+    /* intro */
+    .logo {
+        width: 32vw;
+        height: auto;
+        left: 70vw;
+        top: 0;
+    }
+    .blikje {
+        width: 70vw;
+        left: -5vw;
+        top: 10vh;
+        height: auto;
+    }
+    .intro-tekst {
+        position: relative;
+        width: 50%;
+    }
+    .h1-titel {
+        width: 70%;
+        font-size: 38px;
+        left: 10vw;
+        top: 4vh;
+        line-height: 50px;
+    }
+    .p-ondertitel {
+        width: 70%;
+        font-size: 26px;
+        left: 10.3vw;
+        margin-top: 12.5vh;
+    }
+    /* end intro */
+
+    /* blokken */
+    .blokken {
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 68vh;
+    }
+    .blokken-klein {
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .blok1-groot, .blok2-groot, .blok3-klein, .blok4-klein, .blok5-klein, .blok6-klein, .blok7-klein, .blok8-klein {
+        z-index: 2;
+        height: 70vh;
+        width: 72vw;
+    }
+    .blok2-groot, .blok3-klein, .blok4-klein, .blok5-klein, .blok6-klein, .blok7-klein, .blok8-klein {
+        z-index: 2;
+        margin-top: 50vh;
+        margin-left: 14vw;
+    }
+    .h1-blokken {
+        text-align: center;
+        margin-right: 5vw;
+        font-size: 32px;
+    }
+}
 
 /* ------! MOBILE IPHONE 6 t/m X  !------ */
 @media (max-width: 600px) {
@@ -299,12 +436,12 @@ h1 {
         flex-direction: column;
     }
     .blikje {
-        position: relative;
-        top: -0vh;
+        position: fixed;
         z-index: 1;
         width: 150vw;
         height: auto;
-        left: -25vw;
+        margin-top: 10vh;
+        margin-left: -28vw;
     }
     #intro-tekst {
         z-index: 2;
@@ -338,7 +475,7 @@ h1 {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        margin-top: 10vh;
+        margin-top: 120vh;
     }
     .blokken-klein {
         z-index: 2;
@@ -356,9 +493,6 @@ h1 {
         margin-top: 100px;
         margin-left: 14vw;
     }
-    .blok8-klein {
-        margin-bottom: 10vh;
-    }
     .h1-blokken {
         z-index: 2;
         width: max-content;
@@ -369,4 +503,14 @@ h1 {
         top: 2vh;
     }
     /*blokken end*/
+}
+
+/* ------! MOBILE IPHONE 4 t/m 5/SE  !------ */
+@media (max-width: 568px) {
+    .h1-titel {
+        font-size: 24px;
+    }
+    .h1-blokken {
+        font-size: 18px;
+    }
 }

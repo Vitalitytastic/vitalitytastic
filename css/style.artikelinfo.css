@@ -150,12 +150,11 @@ h1 {
 }
 #table-all {
     position: relative;
-    left: 15vw;
 }
 .item-border{
     position: relative;
     top: 10vh;
-    left: 10vw;
+    left: 7vw;
     background-color: orange;
     border-radius: 20%;
     height: 90vh;
@@ -164,7 +163,7 @@ h1 {
 table {
     position: relative;
     bottom: 75vh;
-    left: 13vw;
+    left: 10vw;
 }
 td, th {
     width: 10vw;
@@ -175,6 +174,30 @@ td, th {
 }
 .vita caption {
     font-weight: bold;
+}
+#bronwater {
+    position: relative;
+    left: 55vw;
+    bottom: 139vh;
+    z-index: 2;
+}
+#bronwater h1, #bronwater p {
+    position: relative;
+    bottom: 20vh; 
+    left: 3vw;
+}
+#bronwater h1 {
+    font-size: 50px;
+}
+#bronwater p {
+    font-size: 15px;
+}
+.blok {
+    position: relative;
+    background-color: orange;
+    border-radius: 20%;
+    height: 20vh;
+    width: 40vw;
 }
 /* blokken end */
 

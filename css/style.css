@@ -37,7 +37,7 @@ body {
 .menu-a {
     margin: 75px 0 -55px 0;
     color: red;
-    font: 14pt "Times", sans-serif;
+    font: 14pt;
     font-weight: 700;
     line-height: 1.8;
     text-decoration: none;

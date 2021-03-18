@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     height: 650vh;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 /* einde main positioning, achtergrond en font*/
 

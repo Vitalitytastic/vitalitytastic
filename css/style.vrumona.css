@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    height: 550vh;
+    height: 570vh;
 }
 /* einde main positioning, achtergrond en font*/
 
@@ -193,10 +193,19 @@ article {
     width: 18.5vw;
     align-content: center;
 }
-h1 {
+.blokje3 {
     position: relative;
+    background-color: orange;
+    border-radius: 20%;
+    width: 25vw;
+    height: 15vh;
     left: 35vw;
-    top: 10vh;
+    top: 7vh;
+}
+.blokje3 h1 {
+   position: relative;
+   top: 7vh;
+   left: 0.5vw;
 }
 .info {
     position: relative;

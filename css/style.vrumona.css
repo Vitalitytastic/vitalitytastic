@@ -232,6 +232,52 @@ article {
         left: 60vw;
     }
     /*main end*/
-
-   
+    .blokje {
+        position: relative;
+        background-color: orange;
+        border-radius: 10%;
+        width: 90vw;
+        height: 110vh;
+        left: 4vw;
+    }
+    .blokje h1, .blokje p,.blokje2 h1, .blokje2 p {
+        position: relative;
+        top: 8.5vh;
+        width: 85vw;
+        left: 1.5vw;
+    }
+    .blokje p, .blokje2 p {font-size:20px;}
+    .blokje h1 {font-size: 1rem;}
+    .blokje2 h1{font-size: 1rem;}
+    .blokje2{
+        position: relative;
+        background-color: orange;
+        border-radius: 10%;
+        width: 90vw;
+        height: 185vh;
+    }
+    .blokje3 {width: 30vw;}
+    .blokje3 h1 {text-align: center;}
+    .grid {
+            display: grid;
+            position: relative;
+            grid-template-columns: repeat(2, 48vw);
+            grid-template-rows: repeat(9, 30vh);
+            top: 10vh;
+        }
+    article {
+            display: flex;
+            border: 1px black solid;
+            background-color: white;
+            padding: 5vh;
+            }
+    .grid img {
+                position: relative;
+                width: 25vw;
+                align-content: center;
+            }
+    .info  {
+            width: 90vw;
+            left: 5vw;
+            }
 }

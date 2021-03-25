@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    height: 570vh;
+    height: 620vh;
 }
 /* einde main positioning, achtergrond en font*/
 
@@ -149,23 +149,23 @@ h1 {
     background-color: orange;
     border-radius: 20%;
     width: 90vw;
-    height: 50vh;
+    height: 65vh;
     left: 4vw;
 }
 .blokje h1, .blokje p,.blokje2 h1, .blokje2 p {
     position: relative;
-    top: 15vh;
+    top: 17vh;
     width: 85vw;
     left: 1.5vw;
 }
-.blokje p, .blokje2 p {font-size:15px;}
+.blokje p, .blokje2 p {font-size:20px;}
 .blokje h1, .blokje2 h1{font-size: 2rem;}
 .blokje2{
     position: relative;
     background-color: orange;
     border-radius: 20%;
     width: 90vw;
-    height: 60vh;
+    height: 90vh;
     left: 4vw;
 }
 .vrumona {

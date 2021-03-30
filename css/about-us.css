@@ -345,7 +345,7 @@ body {
     }
     .titel-ing {
         position: relative;
-        left: 3vw;
+        left: 20vw;
         top: 2vh;
         font-size: 30px;
     }
@@ -357,9 +357,9 @@ body {
     }
    .ingr {
         position: relative;
-        left: 3vw;
+        left: 10vw;
         top: -2vh;
-        width: 65vw;
+        width: 85vw;
         font-size: 20px;
     }
 }

@@ -170,11 +170,12 @@ body {
 .blokken {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
-    grid-template-rows: repeat(3, 10vh);
+    grid-template-rows: repeat(4, 10vh);
     grid-template-areas: 
     "blokeen ."
     ". bloktwee"
-    "blokdrie .";
+    "blokdrie ."
+    "blok .";
 }
 .h1-blokken {
     position: relative;
@@ -223,6 +224,17 @@ body {
     box-shadow: 0 20px 25px rgba(0,0,0,0.15);
     margin-top: 70vh;
 }
+.blok {
+    display: grid;
+    grid-area: "blok";
+    position: relative;
+    width: 70vw;
+    height: 35vh;
+    margin-left: -25vw;
+    border-radius: 50px;
+    margin-top: 80vh;
+}
+
 .titel-duurzaam, .titel-ing {
     position: relative;
     left: 3vw;
@@ -270,15 +282,15 @@ body {
     .h1-blokken {
         position: relative;
         font-size: 24px;
-        left: 3vw;
+        left: 7vw;
         top: 2vh;
-        width: 65vw;
+        width: 85vw;
     }
     .blok1 {
         display: grid;
         grid-area: "blokeen";
         position: relative;
-        width: 70vw;
+        width: 95vw;
         height: 60vh;
         background: #eee;
         margin-left: 2vw;
@@ -286,19 +298,19 @@ body {
         box-shadow: 0 20px 25px rgba(0,0,0,0.15);
     }
     .fles-image{
-        margin-left: 68vw;
-        margin-top: -80vw;
+        margin-left: 25vw;
+        margin-top: 50vw;
         height: 50vh;
-        width: 30vw;
+        width: 35vw;
     }
     .blok2 {
         display: grid;
         grid-area: "bloktwee";
         position: relative;
-        margin-top: 65vh;
-        margin-left: -23vw;
-        width: 70vw;
-        height: 75vh;
+        margin-top: 115vh;
+        margin-left: -48vw;
+        width: 95vw;
+        height: 65vh;
         background: #eee;
         border-radius: 50px;
         box-shadow: 0 20px 25px rgba(0,0,0,0.15);
@@ -307,19 +319,29 @@ body {
         display: grid;
         grid-area: "blokdrie";
         position: relative;
-        width: 70vw;
+        width: 95vw;
         height: 35vh;
         background: #eee;
         margin-left: 2vw;
         border-radius: 50px;
         box-shadow: 0 20px 25px rgba(0,0,0,0.15);
-        margin-top: 125vh;
+        margin-top: 165vh;
+    }
+    .blok {
+        display: grid;
+        grid-area: "blok";
+        position: relative;
+        width: 70vw;
+        height: 35vh;
+        margin-left: -25vw;
+        border-radius: 50px;
+        margin-top: 175vh;
     }
     .titel-duurzaam {
         position: relative;
-        left: 3vw;
+        left: 1vw;
         top: 5vh;
-        font-size: 15px;
+        font-size: 20px;
     }
     .titel-ing {
         position: relative;
@@ -330,8 +352,8 @@ body {
     .milieu{
         position: relative;
         left: 3vw;
-        top: 1vh;
-        width: 65vw;
+        top: -4vh;
+        width: 85vw;
     }
    .ingr {
         position: relative;

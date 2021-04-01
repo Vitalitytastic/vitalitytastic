@@ -274,6 +274,7 @@ article {
     .grid img {
                 display: flex;
                 position: relative;
+                align-self: center;
                 width: 35vw;
                 left: -2vw;
             }

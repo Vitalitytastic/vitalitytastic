@@ -1,3 +1,13 @@
+<?php
+        $host = "localhost:8889";
+        $user = "root";
+        $pass = "root";
+        $database =  "energy";
+        $conn = new mysqli($host, $user, $pass, $database);
+        if ($conn->connect_error) {
+            echo $conn->connect_error;
+        }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,3 +29,7 @@
 </body>
 <script src="js/animation-background.js"></script>
 </html>
+<?php
+        $result->close();
+        $conn->close();
+?>

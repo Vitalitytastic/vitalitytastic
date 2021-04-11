@@ -1,3 +1,13 @@
+<?php
+        $host = "localhost:8889";
+        $user = "root";
+        $pass = "root";
+        $database =  "energy";
+        $conn = new mysqli($host, $user, $pass, $database);
+        if ($conn->connect_error) {
+            echo $conn->connect_error;
+        }
+?>
 <!doctype html>
 <html>
 <head>
@@ -19,14 +29,15 @@
                 <label id="trigger" for="menu-toggle"></label>
                 <label id="burger" for="menu-toggle"></label>
                 <ul id="menu">
-                    <li class="menu-list"><a class="menu-a" href="index.html">Home</a></li>
-                    <li class="menu-list"><a class="menu-a" href="artikelinfo.html">Product Informatie</a></li>
-                    <li class="menu-list"><a class="menu-a" href="vrumona.html">Over Vrumona</a></li>
+                <li class="menu-list"><a class="menu-a" href="index.php">Home</a></li>
+                    <li class="menu-list"><a class="menu-a" href="artikelinfo.php">Product Informatie</a></li>
+                    <li class="menu-list"><a class="menu-a" href="vrumona.php">Over Vrumona</a></li>
+                    <li class="menu-list"><a class="menu-a" href="aanbiedingen.php">Aanbiedingen</a></li>
                     <li class="menu-list"><a class="menu-a" href="#">Evenementen</a></li>
                     <li class="menu-list"><a class="menu-a" href="#">Artiesten</a></li>
-                    <li class="menu-list"><a class="menu-a" href="#">Sponsoren</a></li>
-                    <li class="menu-list"><a class="menu-a" href="about.html">About Us</a></li>
-                    <li class="menu-list"><a class="menu-a" href="index.contact.html">Contact</a></li>
+                    <li class="menu-list"><a class="menu-a" href="sponsoren.php">Sponsoren</a></li>
+                    <li class="menu-list"><a class="menu-a" href="about.php">About Us</a></li>
+                    <li class="menu-list"><a class="menu-a" href="index.contact.php">Contact</a></li>
         
                 </ul>
                 <img class="logo" src="images/logo.png" alt="Logo Vitalitytastic">
@@ -52,3 +63,7 @@
                 </div>
 </body>
 </html>
+<?php
+        $result->close();
+        $conn->close();
+?>

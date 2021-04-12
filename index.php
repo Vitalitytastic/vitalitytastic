@@ -7,6 +7,7 @@
         if ($conn->connect_error) {
             echo $conn->connect_error;
         }
+
 ?>
 
 <!DOCTYPE html>
@@ -54,11 +55,43 @@
                 <div class="blok1-groot">
                     <article class="blok1">
                         <h1 class="h1-blokken">Huidige aanbiedingen</h1>
+                        <?php $sql = "SELECT * FROM aanbiedingen";
+                            if ($result = $conn->query($sql)) {
+                                while ($row = $result->fetch_object()) {
+                                    echo "<p class='aanbiedingen-titel'><a" . $row->aanbiedingen_id . "'>" . $row->titel . "</a></p>";
+                                }
+                            }
+                        $sql = "SELECT * FROM aanbiedingen";
+                        if ($result = $conn->query($sql)) {
+                            while ($row = $result->fetch_object()) {
+                                echo "<p class='aanbiedingen-begindatum'><a" . $row->aanbiedingen_id . "'>" . $row->begindatum . "</a></p>";
+                            }
+                        }
+                        $sql = "SELECT * FROM aanbiedingen";
+                        if ($result = $conn->query($sql)) {
+                            while ($row = $result->fetch_object()) {
+                                echo "<p class='aanbiedingen-einddatum'><a" . $row->aanbiedingen_id . "'>" . $row->einddatum . "</a></p>";
+                            }
+                        }
+                        $sql = "SELECT * FROM aanbiedingen";
+                        if ($result = $conn->query($sql)) {
+                            while ($row = $result->fetch_object()) {
+                                echo "<p class='aanbiedingen-omschrijving'><a" . $row->aanbiedingen_id . "'>" . $row->omschrijving . "</a></p>";
+                            }
+                        }
+//                        $sql = "SELECT * FROM aanbiedingen";
+//                        if ($result = $conn->query($sql)) {
+//                            while ($row = $result->fetch_object()) {
+//                                echo "<div class='aanbiedingen-img'><img" . $row->aanbiedingen_id . "'>" . $row->afbeelding . "</img></div>";
+//                            }
+//                        }
+//                            ?>
                     </article>
                 </div>
                 <div class="blok2-groot">
                     <article class="blok2">
                         <h1 class="h1-blokken">Aankomende evenementen</h1>
+
                     </article>
                 </div>
                 </div>
@@ -94,10 +127,7 @@
                     </article>
                 </div>
                 </div>
-
             </div>
-
-
 
     </body>
 </html>
